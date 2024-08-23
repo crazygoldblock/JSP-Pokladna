@@ -1,0 +1,27 @@
+!DOCTYPE html>
+<html>
+<head>
+    <title>Restaurant Ordering</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>
+    <h1>Welcome to our Restaurant</h1>
+    <form action="order.jsp" method="post">
+        <h2>Menu</h2>
+        <label for="burger">Burger:</label>
+        <select name="burger" id="burger">
+            <option value="cheeseburger">Cheeseburger</option>
+            <option value="veggieburger">Veggie Burger</option>
+            <!-- Add more burger options as needed -->
+        </select>
+        <br>
+        <h2>Customizations</h2>
+        <label for="extras">Extras:</label>
+        <input type="checkbox" name="extras" value="lettuce">Lettuce
+        <input type="checkbox" name="extras" value="tomato">Tomato
+        <!-- Add more customization options as needed -->
+        <br>
+        <input type="submit" value="Place Order">
+    </form>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Role Editor</title>
+</head>
+<body>
+
+    <form action="editroles.jsp">
+        <label>Email uživatele:</label><br>
+        <input type="text" name="email"><br>
+        <label>Role:</label><br>
+        <select name="role">
+            <option value="1">Čtenář</option>
+            <option value="2">Moderátor</option>
+            <option value="3">Administrátor</option>
+        </select><br>
+        <label>Akce:</label><br>
+        <select name="akce">
+            <option value="1">Přidat</option>
+            <option value="2">Odstranit</option>
+        </select><br><br>
+
+        <button type="submit">Potvrdit</button>
+    </form>
+</body>
+</html>
